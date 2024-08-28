@@ -1,2 +1,14 @@
 /venv
 /clean_data.csv
+/env_dvc
+.env
+.DS_Store
+__pycache__/
+# *.pyc
+# *.pyo
+# *.pyd
+# *.swp
+# data/
+# models/
+# *.dvc
+# .dvc/

@@ -1,3 +1,15 @@
 /config.local
 /tmp
 /cache
+.env
+.DS_Store
+__pycache__/
+# *.pyc
+# *.pyo
+# *.pyd
+# *.swp
+# exclude data from source control by default
+# data/
+# models/
+# *.dvc
+# .dvc/
