@@ -1,12 +1,10 @@
-# src/models/train.py
-
 import pandas as pd
 from sklearn.ensemble import GradientBoostingRegressor
 import joblib
 import os
 
 # Load data
-X_train = pd.read_csv('data/scaled/X_train_scaled.csv')  # Updated path to scaled data
+X_train = pd.read_csv('data/scaled/X_train_scaled.csv')  
 y_train = pd.read_csv('data/processed/y_train.csv')
 
 # Load best parameters

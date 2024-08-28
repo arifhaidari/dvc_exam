@@ -19,7 +19,6 @@ X_test_scaled = scaler.transform(X_test_numeric)
 # Ensure the output directory exists
 os.makedirs('data/scaled', exist_ok=True)
 
-# Save the normalized data
 pd.DataFrame(X_train_scaled, columns=numeric_columns).to_csv('data/scaled/X_train_scaled.csv', index=False)
 pd.DataFrame(X_test_scaled, columns=numeric_columns).to_csv('data/scaled/X_test_scaled.csv', index=False)
 
