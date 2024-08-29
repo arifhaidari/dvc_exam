@@ -1,7 +1,7 @@
-# DVC Exam - Machine Learning Pipeline
+# DVC & DagsHub Exam - Machine Learning Pipeline
 
-**Full Name**: Arif HAIDARI  
-**E-mail**: arifhaidari336@gmail.com  
+**Full Name**: Arif HAIDARI <br>
+**E-mail**: arifhaidari336@gmail.com <br>
 **DagsHub URL**: [https://dagshub.com/arifhaidari336/dvc_exam](https://dagshub.com/arifhaidari336/dvc_exam)
 
 ## Project Structure
@@ -187,8 +187,6 @@ dvc push
 
 - **Make sure to set up your DVC remote correctly** using the credentials and storage settings provided by DagsHub or any other platform you're using.
 - **Ensure the `data/raw/raw.csv` file exists** in your repository before running `dvc repro`.
-
-## Conclusion
 
 By following the steps in this `README.md`, you can reproduce the machine learning pipeline from scratch. You can easily modify the scripts and commands to suit your project requirements. DVC helps you manage and version control your data, models, and experiments effectively.
 

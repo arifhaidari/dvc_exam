@@ -26,4 +26,13 @@ y_test.to_csv('data/processed/y_test.csv', index=False)
 #               -o data/processed \
 #               python src/data/data_split.py
 
+# dvc stage add -n split_data \
+#               -d src/data/data_split.py \
+#               -d data/raw/raw.csv \
+#               -o data/processed/X_train.csv \
+#               -o data/processed/X_test.csv \
+#               -o data/processed/y_train.csv \
+#               -o data/processed/y_test.csv \
+#               python src/data/data_split.py
+
 
